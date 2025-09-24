@@ -5,5 +5,8 @@ Affichez dans la console :
 */
 
 // Votre prénom (chaîne)
-
+const name ='Dimitri';
 // Votre âge (nombre)
+let old =2025 - 2004;
+
+console.log(`Je m'appelle ${name} et j'ai ${old} ans`); // Je m'appelle Dimitri et j'ai 20 ans
