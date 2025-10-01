@@ -8,11 +8,25 @@
 // N.B. Le poids est en kg et la taille est en mètres.
 //
 // 1. Stockez le poids et la taille de Mark et de John dans des variables.
+let weightMark = 78;   // en kg
+let heightMark = 1.69; // en m
+
+let weightJohn = 92;   // en kg
+let heightJohn = 1.95; // en m
+
 // 2. Calculez le BMI de chacun.
+
+let bmiMark = weightMark / (heightMark * heightMark);
+let bmiJohn = weightJohn / (heightJohn * heightJohn);
 // 3. Créez une variable booléenne qui contient l'information de savoir
 //    si le BMI de Mark est plus élevé que celui de John.
+let markHigherBMI = bmiMark > bmiJohn;
 // 4. Imprimez une chaîne de caractères dans la console contenant la
 //    variable de l'étape 3 (Quelque chose du genre "Est-ce que le BMI de
 //    Mark est plus élevé que celui de John ? true").
-//
+
+console.log("BMI de Mark : " + bmiMark);
+console.log("BMI de John : " + bmiJohn);
+console.log("Est-ce que le BMI de Mark est plus élevé que celui de John ? " + markHigherBMI);
+
 // BONNE CHANCE 😀
