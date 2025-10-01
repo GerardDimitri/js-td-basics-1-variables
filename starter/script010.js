@@ -26,6 +26,12 @@ const ageToto = 21;
 const ageTiti = 22;
 
 console.log(ageTiti > ageToto);
+
+let isJohnOlder = ageJohn > ageMark;
+console.log("John est-il plus âgé que Mark ? " + isJohnOlder);
+
+let sameAge = ageJohn === ageMark;
+console.log("Ont-ils le même âge ? " + sameAge);
 //etc.. (=== possible aussi)
 
 // Opérateur typeof
