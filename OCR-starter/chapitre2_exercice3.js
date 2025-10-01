@@ -2,7 +2,7 @@
 
 let number1=5;
 let number2=9;
-let temp = null;
+let temp
 
 console.log(`Nombre de base : \nNombre 1 : ${number1}\nNombre 2 : ${number2}`);
 
