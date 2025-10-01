@@ -3,7 +3,7 @@
  */
 
 // 1. Déclarez les variables now, ageJohn, ageMark, yearJohn et yearMark, puis affectez aux trois premières les valeurs 2019, 28 et 33.
-let now = 2019;
+let now = 2025;
 let ageJohn = 28;
 let ageMark = 33;
 let yearJohn, yearMark;
